@@ -1,0 +1,23 @@
+# Ignore hidden folders
+.*/
+
+# Ignore OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Ignore development things
+/app/bower_components
+app/bower_components
+/bower_components
+bower_components
+/node_modules
+npm-debug.log
+
+# Ignore build folder
+dist/
+bower_components
+config.codekit
+*.css.map
+app.css.map

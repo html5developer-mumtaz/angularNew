@@ -1,0 +1,19 @@
+{
+  "buildDir": "dist",
+  "extras": {
+    "js": [
+      "app/core/services/data/**/*.json",
+      "app/modules/**/services/**/*.json",
+      "app/core/templates/**/*",
+      "app/modules/**/templates/**/*",
+      "app/core/config/**/*"
+    ],
+    "css": [
+    ],
+    "assets": [
+      "app/**/img/{,*/}*",
+      "app/**/fonts/*",
+      "app/**/css/{,*/}*.{png,jpg,gif,svg}"
+    ]
+  }
+}
